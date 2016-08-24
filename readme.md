@@ -29,7 +29,7 @@ But I have also made some different choices to suit my needs and preferences.
 
 <ul>
     <li><a href="http://getskeleton.com/">Skeleton.css</a> for lightweight responsiveness.</li>
-    <li><a href="https://www.srihash.org/"></a> on the jQuery CDN link for better security.</li>
+    <li><a href="https://www.srihash.org/">Subresource Integrity</a> on the jQuery CDN link for better security.</li>
     <li><a href="https://www.w3.org/TR/wai-aria/roles">Aria <code>role</code> attributes</a> on the HTML5 section tags for better screen-reader compatibility.</li>
 </ul>
 
