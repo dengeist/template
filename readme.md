@@ -37,7 +37,7 @@ If I don't have the time or the need to roll my own CSS grid system, I find that
 
 <h3 id="how-to-use">How do do I use it?</h3>
 
-Easy: clone it and start coding! I kept this template intentionally simple so that I (and you, if you use it!) can clone it, change it as you need, and use it at the front of a project quickly and without the hassle of a build process, although you <i>could</i> use this template in more complex projects if you wanted to.
+Easy: clone it and start coding! I kept this template intentionally simple so that I (and you, if you use it!) can clone it, change it as you need, and use it at the front of a project quickly, although you <i>could</i> use this template with other tools if you wanted to. For instance, I use the Atom and the [sass-autocompile](https://atom.io/packages/sass-autocompile) plugin to render Sass to css without the hassle of a build process.
 
 <h3 id="additional-considerations">Some additional considerations:</h3>
 
