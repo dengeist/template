@@ -44,7 +44,7 @@ Easy: clone it and start coding! I kept this template intentionally simple so th
 
 You do not have to follow the philosophy of [progressive enhancement][9], but you should try. I built this template to remind myself to serve HTML5 first wherever possible, because not all users will have good connections or access to JavaScript at all!
 
-Try to keep accessibility in mind! The `role` attributes you see in this repo are only the beginning. Check out this [ARIA cheat-sheet][7] if you are unfamiliar with ARIA and refer to the [WCAG guidelines][8] to learn other steps you should take toward accessible web architecture. These [broader guidelines][10]<a href="#disclaimer">	&#42;</a> might be helpful if you are interested in the philosophy of accessibility as much as the how-to.
+Try to keep accessibility in mind! The `role` attributes you see in this repo are only the beginning. Check out this [ARIA cheat-sheet][7] if you are unfamiliar with ARIA and refer to the [WCAG guidelines][8] to learn other steps you should take toward accessible web architecture. These [broader guidelines][10]&#42; might be helpful if you are interested in the philosophy of accessibility as much as the how-to.
 
 If you spot any errors in this project or have any suggestions for a better template, feel free to <b>[open an issue](https://github.com/dengeist/template/issues)</b> or <b>[contact me](mailto:eliasjmason@gmail.com)</b>! Your feedback is always welcome!
 
