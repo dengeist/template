@@ -19,7 +19,7 @@ I've borrowed some things from the HTML5 Boilerplate. No point in fixing what ai
 
 <ul>
     <li><code><!--[if]--></code> tags for supporting older versions of IE.</li>
-    <li> [Normalize][3] for consistent CSS behavior across browsers.</li>
+[Normalize][3] for consistent CSS behavior across browsers.
     <li> [Modernizr][4] for progressive enhancement.</li>
     <li>jQuery from a CDN with a local fallback.</li>
     <li>Code to hook up Google Analytics if necessary.</li>
