@@ -9,7 +9,7 @@
 [9]:https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/
 [10]:https://github.com/jpdevries/webguidelines/blob/master/README.md
 
-<h2 id="what">What is this?</h2>
+<h2 id="title">A Frontend Template With jQuery</h2>
 
 This repo is my current go-to frontend template for progressively enhanced projects. I liked the ideas presented in the excellent [HTML5 Boilerplate][1], but found that it had more than I needed, or implemented features in a different way than I wanted to.
 
