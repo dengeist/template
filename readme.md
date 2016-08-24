@@ -1,17 +1,17 @@
-[HTML5 Boilerplate]:https://html5boilerplate.com/
-[Skeleton CSS]:http://getskeleton.com/
-[Normalize]:https://necolas.github.io/normalize.css/
-[Modernizr]:https://modernizr.com/
-[Subresource Integrity]:https://www.srihash.org/
-[ARIA `role` attributes]:https://www.w3.org/TR/wai-aria/roles
-[ARIA cheatsheet]:http://mcdlr.com/wai-aria-cheatsheet/
-[WCAG guidelines]:https://www.w3.org/WAI/WCAG20/quickref/
-[progressive enhancement]:https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/
-[broader guidelines]:https://github.com/jpdevries/webguidelines/blob/master/README.md
+[1]:https://html5boilerplate.com/
+[2]:http://getskeleton.com/
+[3]:https://necolas.github.io/normalize.css/
+[4]:https://modernizr.com/
+[5]:https://www.srihash.org/
+[6]:https://www.w3.org/TR/wai-aria/roles
+[7]:http://mcdlr.com/wai-aria-cheatsheet/
+[8]:https://www.w3.org/WAI/WCAG20/quickref/
+[9]:https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/
+[10]:https://github.com/jpdevries/webguidelines/blob/master/README.md
 
 <h2 id="what">What is this?</h2>
 
-This repo is my current go-to frontend template for [progressively enhanced] projects. I liked the ideas presented in the excellent [HTML5 Boilerplate], but found that it had more than I needed, or implemented features in a different way than I wanted to.
+This repo is my current go-to frontend template for progressively enhanced projects. I liked the ideas presented in the excellent [HTML5 Boilerplate][1], but found that it had more than I needed, or implemented features in a different way than I wanted to.
 
 <h3 id="included-assets">What's in it?</h3>
 
@@ -19,8 +19,8 @@ I've borrowed some things from the HTML5 Boilerplate. No point in fixing what ai
 
 <ul>
     <li>`<!--[if]-->` tags for supporting older versions of IE.</li>
-    <li>[Normalize] for consistent CSS behavior across browsers.</li>
-    <li>[Modernizr] for progressive enhancement.</li>
+    <li>[Normalize][3] for consistent CSS behavior across browsers.</li>
+    <li>[Modernizr][4] for progressive enhancement.</li>
     <li>jQuery from a CDN with a local fallback.</li>
     <li>Code to hook up Google Analytics if necessary.</li>
 </ul>
@@ -28,9 +28,9 @@ I've borrowed some things from the HTML5 Boilerplate. No point in fixing what ai
 But I have also made some different choices to suit my needs and preferences.
 
 <ul>
-    <li>[Skeleton CSS] for lightweight responsiveness.</li>
-    <li>[Subresource Integrity] on the jQuery CDN link for better security.</li>
-    <li>[ARIA `role` attributes] on the HTML5 section tags for better screen-reader compatibility.</li>
+    <li>[Skeleton.css][2] for lightweight responsiveness.</li>
+    <li>[Subresource Integrity][5] on the jQuery CDN link for better security.</li>
+    <li>[ARIA `role` attributes][6] on the HTML5 section tags for better screen-reader compatibility.</li>
 </ul>
 
 If I don't have the time or the need to roll my own CSS grid system, I find that CSS is more than enough. It is not overly opinionated about how you should organize your HTML, and it does not offer so many features as to be dizzying to new users; nor does it bring a ton of weight to small projects.
@@ -42,9 +42,9 @@ Easy: clone it and start coding! I kept this template intentionally simple so th
 <h3 id="additional-considerations">Some additional considerations:</h3>
 
 
-You do not have to follow the philosophy of [progressive enhancement], but you should try. I built this template to remind myself to serve HTML5 first wherever possible, because not all users will have good connections or access to JavaScript at all!
+You do not have to follow the philosophy of [progressive enhancement][9], but you should try. I built this template to remind myself to serve HTML5 first wherever possible, because not all users will have good connections or access to JavaScript at all!
 
-Try to keep accessibility in mind! The `role` attributes you see in this repo are only the beginning. Check out this [ARIA cheatsheet] if you are unfamiliar with ARIA and refer to the [WCAG guidelines] to learn other steps you should take toward accessible web architecture. These [broader guidelines]<a href="#disclaimer">	&#42;</a> might be helpful if you are interested in the philosophy of accessbility as much as the how-to.
+Try to keep accessibility in mind! The `role` attributes you see in this repo are only the beginning. Check out this [ARIA cheat-sheet][7] if you are unfamiliar with ARIA and refer to the [WCAG guidelines][8] to learn other steps you should take toward accessible web architecture. These [broader guidelines][10]<a href="#disclaimer">	&#42;</a> might be helpful if you are interested in the philosophy of accessibility as much as the how-to.
 
 If you spot any errors in this project or have any suggestions for a better template, feel free to <b>[open an issue](https://github.com/dengeist/template/issues)</b> or <b>[contact me](mailto:eliasjmason@gmail.com)</b>! Your feedback is always welcome!
 
