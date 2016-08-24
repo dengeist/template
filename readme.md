@@ -18,9 +18,9 @@ This repo is my current go-to frontend template for progressively enhanced proje
 I've borrowed some things from the HTML5 Boilerplate. No point in fixing what ain't broke, etc:
 
 <ul>
-    <li>`<!--[if]-->` tags for supporting older versions of IE.</li>
-    <li>[Normalize][3] for consistent CSS behavior across browsers.</li>
-    <li>[Modernizr][4] for progressive enhancement.</li>
+    <li><code><!--[if]--></code> tags for supporting older versions of IE.</li>
+    <li> [Normalize][3] for consistent CSS behavior across browsers.</li>
+    <li> [Modernizr][4] for progressive enhancement.</li>
     <li>jQuery from a CDN with a local fallback.</li>
     <li>Code to hook up Google Analytics if necessary.</li>
 </ul>
@@ -28,9 +28,9 @@ I've borrowed some things from the HTML5 Boilerplate. No point in fixing what ai
 But I have also made some different choices to suit my needs and preferences.
 
 <ul>
-    <li>[Skeleton.css][2] for lightweight responsiveness.</li>
-    <li>[Subresource Integrity][5] on the jQuery CDN link for better security.</li>
-    <li>[ARIA `role` attributes][6] on the HTML5 section tags for better screen-reader compatibility.</li>
+    <li> [Skeleton.css][2] for lightweight responsiveness.</li>
+    <li> [Subresource Integrity][5] on the jQuery CDN link for better security.</li>
+    <li> [ARIA `role` attributes][6] on the HTML5 section tags for better screen-reader compatibility.</li>
 </ul>
 
 If I don't have the time or the need to roll my own CSS grid system, I find that CSS is more than enough. It is not overly opinionated about how you should organize your HTML, and it does not offer so many features as to be dizzying to new users; nor does it bring a ton of weight to small projects.
