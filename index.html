@@ -1,10 +1,13 @@
 <!doctype html>
-<html class="no-js" lang="eng">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <title>Template</title>
-    <meta name="description" content="A frontend template with normalize, skeleton.css, and a link to CDN-hosted jQuery 3.x, with a local fallback.">
+    <meta name="description" content="A frontend template inspired by HTML5 Boilerplate. Includes normalize, skeleton.css, and a link to CDN-hosted jQuery 3.x, with a local fallback.">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     <link href="css/normalize.css" rel="stylesheet" media="screen">
     <link href="css/skeleton.css" rel="stylesheet" media="screen">
@@ -26,6 +29,11 @@
             <p>Some footer content.</p>
         </footer>
     </div>
+    <!--[if lte IE 8]>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script type="text/javascript">window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js">\x3C/script>')</script>
+              <script type="text/javascript" src="js/main.js"></script>
+        <![endif]-->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"
             integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
             crossorigin="anonymous"></script>
